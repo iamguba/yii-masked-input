@@ -11,9 +11,6 @@ This is the Masked Input extension for [Yii framework](http://www.yiiframework.c
 
 For license information check the [LICENSE](LICENSE.md)-file.
 
-[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii-masked-input/v/stable.png)](https://packagist.org/packages/yiisoft/yii-masked-input)
-[![Total Downloads](https://poser.pugx.org/yiisoft/yii-masked-input/downloads.png)](https://packagist.org/packages/yiisoft/yii-masked-input)
-[![Build Status](https://travis-ci.org/yiisoft/yii-masked-input.svg?branch=master)](https://travis-ci.org/yiisoft/yii-masked-input)
 
 Installation
 ------------
@@ -21,7 +18,7 @@ Installation
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
 ```
-composer require --prefer-dist yiisoft/yii-masked-input
+composer require --prefer-dist iamguba/yii-masked-input
 ```
 
 Usage
@@ -40,7 +37,7 @@ You can also use this widget in an [[ActiveForm]] using the [[ActiveField::widge
 method, for example like this:
 
 ```php
-<?= $form->field($model, 'from_date')->widget(Yiisoft\Yii\MaskedInput\MaskedInput::class, [
+<?= $form->field($model, 'from_date')->widget(iamguba\MaskedInput\MaskedInput::class, [
     'mask' => '999-999-9999',
 ]) ?>
 ```

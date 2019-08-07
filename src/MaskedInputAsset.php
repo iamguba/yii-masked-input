@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace Yiisoft\Yii\MaskedInput;
+namespace iamguba\MaskedInput;
 
 use yii\web\AssetBundle;
 
@@ -15,6 +15,7 @@ use yii\web\AssetBundle;
  * Includes client assets of [jQuery input mask plugin](https://github.com/RobinHerbots/Inputmask).
  *
  * @author Kartik Visweswaran <kartikv2@gmail.com>
+ * @author Alexander Gubenko <gubacoolest@gmail.com>
  * @since 1.0
  */
 class MaskedInputAsset extends AssetBundle
